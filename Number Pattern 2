@@ -1,0 +1,49 @@
+Print the following pattern
+Pattern for N = 4
+( You can see the question on the coding ninjas site )
+
+The dots represent spaces.
+
+
+
+Input Format :
+N (Total no. of rows)
+Output Format :
+Pattern in N lines
+Sample Input :
+5
+Sample Output :
+
+
+The dots represent spaces.
+
+
+Solution-
+
+#include<iostream>
+using namespace std;
+
+
+int main(){
+
+       /*  Read input as specified in the question.
+	* Print output as specified in the question.
+	*/
+    int x,n;
+    cin>>n;
+    for(int i=1;i<=n;i++)
+    {
+        x=i;
+		for(int j=1;j<=n-i;j++)
+        {
+            cout<<" ";
+        }
+        for(int k=1;k<=i;k++)
+        {
+            cout<<x++;
+        }
+        cout<<endl;
+    
+    }
+  
+}
