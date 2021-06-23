@@ -1,1 +1,1 @@
-# Coding-Ninjas---Introduction-to-C-solutions
+# Coding-Ninjas---Introduction-to-C++-solutions
